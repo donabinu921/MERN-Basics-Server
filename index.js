@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(cors());
 
 mongoose.connect(
-    'mongodb+srv://elizabethdona921:elizabethdona921@cluster1.6lmwrxd.mongodb.net/merntutorial?retryWrites=true&w=majority&appName=Cluster1'
+    'mongodb+srv://username:password@cluster1.6lmwrxd.mongodb.net/merntutorial?retryWrites=true&w=majority&appName=Cluster1'
 );
 
 // app.get("/getUsers", (req, res) => {
